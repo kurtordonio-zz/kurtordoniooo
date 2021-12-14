@@ -1,0 +1,149 @@
+body{
+	background-image: url("mountain.jpg");
+}
+h1{
+	text-align: left;
+}
+.navbar{
+	width: 80%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 110px;
+	cursor: pointer;
+}
+.logo1{
+	width: 20px;
+}
+button{
+	background: transparent;
+	font-family: fantasy;
+}
+.timedate{
+	margin: 460px;
+	font-size: 15px;
+	font-family: fantasy;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+.navbar ul li a{
+	transition: 1s;
+	font-family: fantasy;
+	text-decoration: none;
+	color: black;
+}
+.navbar ul li a:link{
+	color: red;
+}
+.navbar ul li a:visited{
+	color:black;
+}
+.navbar ul li a:hover{
+	color:white;
+}
+.navbar ul li a:active{
+	color:red;
+}
+p{
+	text-align: center;
+	text-indent: auto;
+	font-family: fantasy;
+	font-size: 40px;
+}
+.gallery{
+	margin: 20px 299px;
+}
+.gallery img{
+	transition: 1s;
+	width: 230px;
+	padding: 5px;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.kurtimg{
+	margin: 20px 299px;
+}
+.kurtimg img{
+	transition: 1s;
+	width: 230px;
+	padding: 5px;
+}
+.kurtimg img:hover{
+	transform:scale(1.1);
+}
+table{
+	width: 100%;
+}
+h3{
+	text-align: center;
+}
+th{
+	text-align: center;
+}
+td{
+	text-align: center:
+}
+ol{
+	text-align: center;
+}
+iframe{
+	margin: 0px 200px;
+}
+.movie{
+	margin: 10px;
+}
+.movie img{
+	width: 30px;
+}
+.cam{
+	margin: 10px;
+}
+form{
+	border-radius: 5px;
+	font-family: fantasy;
+	background-color: #f2f2f2;
+	padding: 50px;
+}
+label{
+	text-indent: center;
+	font-family: monospace;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0px 200px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0px 192px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=message], select {
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+li{
+	font-family: fantasy;
+}
